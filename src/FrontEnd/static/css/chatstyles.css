@@ -1,0 +1,279 @@
+/* Chat Styles */
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+
+/* Conversation Panel */
+
+.conversationPanel {
+    position: relative; /* Changed from fixed to relative */
+    background-color: #222327;
+    width: 15%;
+    height: 100vh; /* Ensure it takes full height */
+}
+
+.logoheader {
+    display: flex;
+    align-items: center;
+}
+
+.logoheader img{
+    width: 40px;
+    height: 40px;
+}
+
+.conversations {
+    max-width: 250px;
+    max-height: 720px;
+    overflow-y: auto;
+    /*background-color: lightgrey; TEST FOR SIZE*/    
+    width: 250px;
+    margin-top: 30px;
+    height: 100%;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.conversations button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 240px;
+    height: 30px;
+    margin-left: 5px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
+.conversationPanel h3 {
+    color: #9da1ad;
+    font-size: 20px;
+    font-family: 'Bungee', sans-serif;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#logo {
+    width: 70px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+#vertical-line {
+    width: 1.5px;
+    background-color: black;
+    height: 100vh;
+    position: relative; /* Changed from fixed to relative */
+}
+
+
+#sideBarButton {
+    position: absolute;
+    right: 5px;
+    top: 24px;
+    background-color: transparent;
+    border-radius: 7px;
+    cursor: pointer;
+    border: transparent;
+    height: 40px;
+}
+
+#sideBarButton:hover {
+    background-color: #494B51;
+}
+
+#sideBarButton img {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+
+
+#addChatButton {
+    position: absolute;
+    top: 120px;
+    left: 29%;
+    transform: translateX(-50%);
+    background-color: #3a54e0;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#addChatButton:hover {
+    background-color: #233b98;
+}
+
+#addChatText:active{
+    color: black;
+}
+
+#addChatButton img {
+    width: 22px;
+    height: 22px;
+}
+
+
+
+#profileButton {
+    position: absolute;
+    width: 275px;
+    height: 50px;
+    left: 5px;
+    bottom: 10px;
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+#profileButton:hover {
+    background-color: #2E2F33;
+}
+
+#profileName {
+    position: relative;
+    color: white;
+    font-size: 15px;
+    bottom: 5;
+    left: -40px;
+
+}
+
+
+
+.profile img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 3px;
+    left: 5px
+}
+
+
+
+
+
+
+/* Chat Panel */
+
+.chatPanel {
+    position: relative;
+    background-color: #2a2a2c;
+    flex-grow: 1;
+    overflow-y: auto;
+    color: black;
+    height: 100vh; 
+    overflow-x: hidden; /* prevent horizontal scrolling */
+}
+
+.chatField {
+    position: absolute;
+    /*background-color: black; TEST*/ 
+    width: 80%;
+    height: 85%;
+    left: 50%;
+    top: 4%;
+    transform: translateX(-50%);
+}
+
+
+.chatHeader  {
+    position: absolute;
+    color: white;
+    left: 45%;
+    transform: translateX(-50%);
+    top: 30%;
+}
+
+
+.chatForm {
+    position: relative;
+    left: 25%;
+    top: 42%;
+}
+
+.chatBox textarea {
+    position: relative;
+    width: 660px;
+    height: 110px;
+    border-radius: 20px;
+    background-color: #404045;
+    padding: 10px;
+    box-sizing: border-box;
+    vertical-align: top;
+    color: white;
+    resize: none; /* Prevent resizing */
+    overflow-y: auto;
+    line-height: 28px;
+    font-size: 15px;
+} 
+
+.chatBox textarea::placeholder {
+    position: relative;
+    font-size: 15px;
+    color: white;
+    line-height: 28px;
+    left: 10px;
+}
+
+
+
+#sendButton {
+    position: absolute;
+    left: 37.5%;
+    top: 60px;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: transparent;
+}
+
+#sendButton img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#sendButton:hover img {
+    filter: brightness(80%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title> Deepseek - Login </title>
+        <link rel = "icon" href = "../images/deepseek-color.png" type = "image/png">
+        <link rel = "stylesheet" href = "../css/loginstyles.css"> <!--Link CSS file to login.html to style webpage-->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class = "login">
+
+            <div id = "loginheader">
+                <img src ="../images/deepseek-color.png" alt = "Deepseek logo">
+                <h3> DeepSeek </h3>
+            </div>
+            
+
+            <div class = "loginform">
+                <form action = "" method = "POST"> <!-- Form to input username and password--> <!-- ADD A ACTION ATTRIBUTE TO SEND TO API--> 
+                    <div class = "center">
+                        <div class = "loginheader">
+                            <h2> Welcome Back </h2>
+                            <p> Please enter your details </p>
+                        </div>
+
+                        <div class = "inputs">
+                            <input type = "text" placeholder = "Enter your username" maxlength = "20" required> <br>
+                            <img src = "../images/user.png" alt = "user icon">
+
+                            <input type = "password" placeholder = "Enter your password" maxlength = "20" required> <br>
+                            <img src = "../images/open.png" alt = "open icon">
+                            <!-- TODO: ADD TOGGLE PASSWORD VISIBILITY FEATURE -->
+                        </div>
+                        
+                        <div class = "loginbutton">
+                            <button type = "submit"> Login </button> <br> <!-- Button to submit when login is typed in -->
+                        </div>
+
+                        <div class = "loginfooter">
+                            <input type = "checkbox" id = rememberme>
+                            <label for = "rememberme"> Remember me </label> <br> <!-- Remember me check box -->
+                        </div>
+
+                        <div class = signuplink>
+                            <p> Need an account? <a href = "register.html" class = "registerbutton"> Sign up </a> </p> <br> <!-- Link to register.html -->
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+            <div class = "banner">
+                <img src = "">
+            </div>
+
+        </div>
+    </body>
+</html>

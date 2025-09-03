@@ -1,0 +1,6 @@
+
+Things to add:
+-Add a max character limit and have an exception message if character limit is exceeded
+-Add 3 dots on the side of the conversation when user hovers over conversation
+
+

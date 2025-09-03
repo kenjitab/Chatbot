@@ -1,0 +1,257 @@
+/* Styles.css */
+
+
+
+html, body {
+    height: 100%;
+    margin: 0%;
+}
+
+body {
+    background-image: url(../images/greybackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+hr {
+    border: 1.5px solid black;
+}
+
+
+
+
+#loginheader {  
+    display: flex;
+    align-items: center;
+    
+}
+
+#loginheader img {
+    width: 70px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#loginheader h3 {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-family: 'Bungee', sans-serif;
+}
+
+.loginheader {
+    margin-bottom: 35px;
+}
+
+.loginheader h2 {
+    font-size: 30px;
+    font-family: 'Tahoma', sans-serif;
+    margin-top: 20px;
+    color: lightgrey;
+    text-shadow: 2px 2px 2px black;
+}
+
+.loginheader p {
+    margin-top: -15px;
+    font-family: 'Tahoma', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.loginform {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.inputs {
+    position: relative; /* Add relative positioning to the container */
+    width: 300px; /* Ensure the container has the same width as the input */
+}
+
+.inputs input {
+    width: 100%; /* Make the input take the full width of the container */
+    height: 40px;
+    margin-top: -10px;
+    font-size: 15px;
+    font-family: 'Verdana', sans-serif
+    outline: 3px solid black;
+    border-radius: 5px;
+}
+
+.inputs img {
+    position: relative;
+    left: 130px;
+    top: -36px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: -10px;
+}
+
+.login button {
+    width: 310px;
+    height: 35px;
+    background-color: #73C2FB;
+    color: black;
+    font-weight: bold;
+    margin-top: -60px;
+}
+
+.loginfooter label {
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signuplink {
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signuplink a {
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
+
+.signuplink a:hover {
+    color: #0080FE;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+.loginfooter {
+    margin-top: 20px;
+}
+
+
+.loginbutton button:hover {
+    background-color: #0080FE;
+    color: white;
+    font-weight: bold;
+}
+
+/* Register.css */
+
+.registerheader {  
+    display: flex;
+    align-items: center;
+}
+
+
+.registerheader img {
+    width: 70px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.registerheader h3 {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-family: 'Bungee', sans-serif;
+}
+
+
+.signup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.signupheader h3 {
+    font-size: 30px;
+    font-family: 'Tahoma', sans-serif;
+    margin-bottom: 20px;
+    color: lightgrey;
+    text-shadow: 2px 2px 2px black;
+}
+
+.signupheader p {
+    margin-top: -15px;
+    font-family: 'Tahoma', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+.signupinputs {
+    position: relative; /* Add relative positioning to the container */
+    width: 300px; /* Ensure the container has the same width as the input */
+}
+
+.signupinputs img {
+    position: relative;
+    left: 130px;
+    top: -36px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: -10px;
+}
+
+.signupinputs input {
+    width: 100%; /* Make the input take the full width of the container */
+    height: 40px;
+    margin-top: -10px;
+    font-size: 15px;
+    font-family: 'Verdana', sans-serif
+    outline: 3px solid black; /* Adds a blue outline */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+}
+
+
+.signupinputs button {
+    width: 310px;
+    height: 35px;
+    background-color: #73C2FB;
+    color: black;
+    font-weight: bold;
+    margin-top: -60px;
+}
+
+.signupinputs button:hover {
+    background-color: #0080FE;
+    color: white;
+    font-weight: bold;
+}
+
+
+.loginlink {
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginlink a {
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
+
+.loginlink a:hover {
+    color: #0080FE;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+
+
+
+
+
+
+
+

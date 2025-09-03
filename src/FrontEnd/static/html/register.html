@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title> DeepSeek - Register </title>
+        <link rel = "icon" href = "../images/deepseek-color.png" type = "image/png">
+        <link rel = "stylesheet" href = "../css/styles.css"> <!--Link CSS file to login.html to style webpage-->
+
+       
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+
+
+    <body>
+        <!-- Ask for email, first and last name, 2 passwords fields (one to confirm password) -->
+        <!-- sign up button, at the bottom ask if they already have an account direct them to login.html -->
+        <div class = "registerheader">
+            <img src = "../images/deepseek-color.png" alt = "Deepseek logo">
+            <h3> DeepSeek </h3>
+        </div>
+
+
+
+
+        <div class = "registerform">
+            
+            <form action = "" method = "POST"> <!-- leave action blank for now and input path when database and back end is setup-->
+                    <div class = "signup">
+                        <div class = "signupheader">
+                            <h3> Welcome </h3>
+                            <p> Please enter your details </p>
+                        </div>  <!-- sign up header -->
+
+                        <div class = "signupinputs">
+                            <!-- Username input -->
+                            <input type = "text" name = "username" placeholder = "Username" maxlength = "25" required>
+                            <img src = "../images/user.png" alt = "user icon">
+
+                            <!-- Email input --> <!-- ADD EMAIL VALIDATION -->
+                            <input type = "text" name = "email" placeholder = "Email" maxlength = "25" required>
+                            <img src = "../images/mail.png" alt = "mail icon">
+                            
+
+                            <!-- TODO: ADD TOGGLE PASSWORD VISIBILITY -->
+                            <!-- https://www.youtube.com/watch?v=945xZpwy9w8 -->
+
+                            <!-- Password input -->
+                            <input type = "password" name = "password" id = "password" placeholder = "Password" maxlength = "25" required>
+                            <img src = "../images/open.png" alt = "open icon" id = "confirmpw">
+
+
+                            <!-- Confirm password input -->
+                            <input type = "password" placeholder = "Confirm Password" maxlength = "20" required>
+                            <img src = "../images/open.png" alt = "open icon">
+
+                            <button type = "submit"> Sign up </button>
+                        </div>  <!-- inputs -->
+
+                        <div class = "loginlink">
+                            <p> Already have an account? <a href = "login.html"> Login </a> </p>
+                        </div>
+
+                    </div> <!-- sign up -->
+                </form>
+
+        </div> <!-- registerform  -->
+
+
+    </body>
+</html>
+
+
+

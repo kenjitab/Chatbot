@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title> DeepSeek </title>
+        <link rel = "icon" href = "../images/deepseek-color.png" type = "image/png">
+        <link rel = "stylesheet" href = "../css/chatstyles.css">
+
+        <!-- Font imports -->
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+        <div id = "vertical-line"></div>
+
+        <div class = "conversationPanel">
+            <div class = "logoheader">
+                <img src = "../images/deepseek-color.png" alt = "Deepseek logo" id = "logo">
+                <h3> DeepSeek </h3>
+            </div>
+
+            <button type = "button" id = "sideBarButton"> 
+                <img src = "../images/sidebar.png" alt = "sidebar icon"> 
+            </button>
+
+            <button type = "button" id = "addChatButton"> 
+                <img src = "../images/newChat.png">
+                <span id = "addChatText"> New Chat </span>
+            </button>
+
+            <div class = "conversations">
+                <button class = "conversation1" onClick = "openChat(1)"> Chat 1 </button> <br>
+                <button class = "conversation2" onClick = "openChat(2)"> Chat 2 </button> <br>  
+                <button class = "conversation3" onClick = "openChat(3)"> Chat 3 </button>
+            </div>
+
+            <div class = "profile">
+                <button type = "button" id = "profileButton"> 
+                    <img src = "../images/profile.png" alt = "profile icon">
+                    <span id = profileName> My Profile </span> 
+                </button>
+            </div>
+
+        </div>
+
+
+        <!-- Chat Panel -->
+        <div class = chatPanel>
+            <div class = "chatHeader">
+                <h3> Welcome to DeepSeek. </h3>
+                <p> How can I help you today? </p>
+            </div>
+
+            <div class = "chatField"> </div> <!-- Chat field where messages will be displayed -->
+
+            <form class = "chatForm" onsubmit = "sendMessage(event)">
+                <div class = "chatBox">
+                    <textarea placeholder = "Type a message..."></textarea>
+
+                    <button type = "submit" id = "sendButton"> 
+                        <img src = "../images/sendmessage.png" alt = "send message icon">         
+                    </button>
+                </div>
+            </form>
+
+        </div> <!-- chatPanel -->
+
+        
+
+
+    </body>
+</html>
