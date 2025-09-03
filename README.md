@@ -5,7 +5,7 @@ The chatbot UI is styled with Tailwind CSS, and it connects to an AI model for g
 
 ---
 
-## 🚀 Features
+## Features
 - Chat interface with messages aligned by role (user vs AI).
 - Keyboard support (press **Enter** to send messages).
 - Styled with **Tailwind CSS**.
@@ -13,7 +13,7 @@ The chatbot UI is styled with Tailwind CSS, and it connects to an AI model for g
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Frontend:** React, Tailwind CSS
 - **Backend:** Node.js, Express
 - **AI Integration:** Hugging Face (or another model)
